@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1c69cf81a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/portfo.css">
+</head>
+<body>
+    <div class="body">
+        <header>
+            
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <div class="wrapper" >
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+            
+
+        </header>
+    
+        <!-- carousel -->
+        <div class="carousel">
+            <!-- list item -->
+            <div class="list">
+                <div class="item">
+                    <img src="image/pexels-ovan-57690.jpg">
+                    <div class="content">
+                        <div class="author"><span>web</span>space </div>
+                        <div class="title">WEBSITE DESIGN</div>
+                        <div class="topic">CREATIVE</div>
+                        <div class="des">
+                            <!-- lorem 50 -->
+                            Welcome to <span>WEB SPACE</span>, where creativity meets functionality. As a budding web agency, we specialize in crafting visually stunning and user-friendly websites tailored to your unique needs. From sleek design to seamless functionality, we're dedicated to bringing your online presence to life
+                        </div>
+                        <div class="buttons">
+                            <button>SEE MORE</button>
+                            <button>Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/pexels-olia-danilevich-4974920.jpg">
+                    <div class="content">
+                        <div class="author"><span>web</span>space </div>
+                        <div class="title">MODERN WEBSITE</div>
+                        <div class="topic">LAST UPDATES</div>
+                        <div class="des">
+                            Welcome to <span>WEB SPACE</span>, where creativity meets functionality. As a budding web agency, we specialize in crafting visually stunning and user-friendly websites tailored to your unique needs. From sleek design to seamless functionality, we're dedicated to bringing your online presence to life
+                        </div>
+                        <div class="buttons">
+                            <button>SEE MORE</button>
+                            <button>Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/pexels-danny-meneses-943096.jpg">
+                    <div class="content">
+                        <div class="author"><span>web</span>space </div>
+                        <div class="title title-3">E-COMMERCE WEBSITE</div>
+                        <div class="topic topic-3">ONLINE STORES</div>
+                        <div class="des">
+                            Welcome to <span>WEB SPACE</span>, where creativity meets functionality. As a budding web agency, we specialize in crafting visually stunning and user-friendly websites tailored to your unique needs. From sleek design to seamless functionality, we're dedicated to bringing your online presence to life
+                        </div>
+                        <div class="buttons">
+                            <button>SEE MORE</button>
+                            <button>Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/pexels-darlene-alderson-4385547.jpg">
+                    <div class="content">
+                        <div class="author"><span>web</span>space </div>
+                        <div class="title">DESKTOP APP</div>
+                        <div class="topic">SYSTEMS</div>
+                        <div class="des">
+                            Welcome to <span>WEB SPACE</span>, where creativity meets functionality. As a budding web agency, we specialize in crafting visually stunning and user-friendly websites tailored to your unique needs. From sleek design to seamless functionality, we're dedicated to bringing your online presence to life
+                        </div>
+                        <div class="buttons">
+                            <button>SEE MORE</button>
+                            <button>Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- list thumnail -->
+            <div class="thumbnail">
+                <div class="item">
+                    <img src="image/pexels-ovan-57690.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/pexels-olia-danilevich-4974920.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/pexels-danny-meneses-943096.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/pexels-darlene-alderson-4385547.jpg">
+                    <div class="content">
+                        <div class="title">
+                            Name Slider
+                        </div>
+                        <div class="description">
+                            Description
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next prev -->
+    
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <!-- time running -->
+            <div class="time"></div>
+        </div>
+    </div>
+
+  
+
+
+    <section id="container">
+       
+        <div id="contenuabout">
+          <div id="about">
+            <div id="left">
+              <img src="image/Questions (1).gif" id="leftimg" alt="">
+            </div>
+            <div id="right">
+            <strong>About Us 
+            </strong>
+              <div id="aboutpara">
+                Empowering businesses with stunning digital solutions, our agency crafts dynamic websites that captivate and
+                engage audiences. With a passion for innovation and a keen eye for design, we specialize in creating bespoke
+                online experiences tailored to elevate your brand. Our team of experts blends creativity with cutting-edge
+                technology to deliver seamless, user-friendly websites that leave a lasting impression. From
+                conceptualization
+                to launch, we're committed to transforming your vision into a powerful online presence, driving success and
+                growth for your business.
+        
+              </div>
+            </div>
+          </div>
+         <div class="btm_link">
+            <a id="linkig" href="#why">  <img src="image/down.png"/></a>
+         
+         </div>
+
+    
+          <div id="why">
+    
+          
+            <div class="section_title">
+                <strong><span>Why</span> Choose <span>Us</span></strong>
+            </div>
+            
+            <div id="cards">
+              <div class="carditem">
+                <img src="image/icons8-code-96.png"  id="img1" />
+                <span>Quality Websites, Exceptional User Journeys</span>
+           
+              </div>
+    
+              <div class="carditem">
+                <img src="image/icons8-guarantee-96.png" id="img2"/>
+                <span>Your Vision, Our Web Mastery</span>
+              </div>
+              <div class="carditem">
+                <img src="image/icons8-push-pin-96.png"  id="img3"/>
+                <span>Customization: Tailored for Your Business</span>
+              </div>
+              <div class="carditem">
+                <img src="image/icons8-backend-development-64.png"  id="img4" />
+                <span>Web Excellence Simplified: Choose Us</span>
+              </div>
+            </div>
+    
+          </div>
+        
+          
+    
+         
+        </div>
+
+          <section class="services_section" id="services">
+            <div class="section_title">
+                <strong><span>OUR</span> SERVICES</strong>
+            </div>
+            <div class="wrapper2">
+                <div class="container">
+                    <div class="card border-top-yellow">
+                        <img src="image/undraw_wordpress_utxt.svg" alt="" >
+                        <h2>WordPress Website</h2>
+                        <p>Providing custom, user-friendly and visually appealing websites for businesses and individuals.</p>
+                        <br>
+                        <div class="explore-btn">
+                        <a href="#">Contact   <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="card border-top-green">
+                        <img src="image/undraw_undraw_undraw_website_o7n3_bucy_30uo.svg" alt="" >
+                        <h2>Custom Website</h2>
+                        <p>We offer Custom coded, Pixel-Perfect, Creative and Professional Websites to drive success for your business.</p>
+                        <br>
+                        <div class="explore-btn">
+                        <a href="#">Contact   <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="card border-top-blue">
+                        <img src="image/undraw_progressive_app_m-9-ms.svg" alt="" >
+                        <h2>Responsive Design</h2>
+                        <p>Designing and building websites that ensures optimal viewing and interaction experiences across a variety of devices and screen sizes.</p>
+                        <br>
+                        <div class="explore-btn">
+                        <a href="#">Contact   <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+           </section>
+        
+           <section class="works_section container" id="works" >
+            <div class="section_title">
+                <strong>A LITTLE OF <span>OUR</span> WORKS</strong>
+            </div>
+            <div class="contain_cards">
+                <div class="works_cards">
+                    <div class="work_card card1">
+                       
+                            <img src="image/Most-Attractive-Youtube-Thumbnail.webp" alt="">
+                            <div class="card-content">
+                              <h2>
+                                Anajah Academy
+                              </h2>
+                              <p>
+                                The landing page we created for ANAJAH ACADEMY is a clean and modern design that showcases the consulting center's services and benefits. The homepage features a clear and concise headline, a prominent contact button, and engaging visuals that help convey the value proposition of ANAJAH ACADEMY. 
+                            </p>
+                              <a href="#" >
+                                Visit Project                   
+                              </a>
+                            </div>
+                         
+                    </div>
+                    <div class="work_card card2">
+                       
+                        <img src="image/1.webp" alt="">
+                        <div class="card-content">
+                          <h2>
+                            Rumble Project
+                          </h2>
+                          <p>
+                            Our website, built using React.js, is a visually appealing and intuitive frontend interface for booking cars. While we do not have a backend system in place, our frontend is designed to seamlessly integrate with existing backend solutions through APIs. 
+                        </p>
+                          <a href="#" >
+                          Visit Project  <i class="fa-solid fa-arrow-right"></i>              
+                          </a>
+                        </div>
+                     
+                    </div>
+                   
+                    <div class="work_card card1">
+                            
+                        <img src="image/ecomm.webp" alt="">
+                        <div class="card-content">
+                        <h2>
+                            Jersey E-commerce
+                        </h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+                        </p>
+                        <a href="#" >
+                            Find out more 
+                        
+                        </a>
+                        </div>
+                    
+                    </div>
+                     <div class="work_card card2">
+                        
+                        <img src="image/2.webp" alt="">
+                        <div class="card-content">
+                        <h2>
+                            DÉRATISATION Project
+                        </h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+                        </p>
+                        <a href="#" >
+                           Visit Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+           </section>
+        
+            <section class="contact_section" id="contact">
+                <div class=" container section_title">
+                 <strong><span>CONTACT</span> US</strong>
+                 </div>
+                 <div class="container contact">
+                     <section class="form_section">
+                  <div class="right_side">
+                    <H4>LET'S TALK</H4>
+                    <form action="send.php" method="post" class="form_contact">
+                      <div class="input-box">
+                        <input name="name" id="full_name" type="text" placeholder="Full Name">
+                      </div>
+                      <div class="input-box">
+                        <input  name="email" id="email" type="email" placeholder="Email Adresse"  >
+                      </div>
+                      <div class="input-box">
+                        <input name="phone" id="phone" type="text" placeholder="Phone Number">
+                      </div>
+                      <div class="input-box message-box">
+                          <textarea name="message" id="messagebox" cols="30" rows="10" placeholder="Message"></textarea>
+                      </div>
+                      <div class="button">
+                        <button class="sendbtn" id="submit" name="send">Send</button>
+                      </div>
+                    </form>
+                  </div>
+        
+                  <div class="left_side">
+                    <img src="image/Mail sent (2).gif" alt="contact_img">
+                  </div>
+                
+                </section>
+                 </div>
+            </section>
+    
+      </section>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" ></script>
+  
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+    <script src="app.js"></script>
+    <script src="aboutus.js"></script>
+</body>
+</html>
